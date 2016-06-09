@@ -65,11 +65,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Chart.cs">
+    <Compile Include="ChartControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Chart.Designer.cs">
-      <DependentUpon>Chart.cs</DependentUpon>
+    <Compile Include="ChartControl.Designer.cs">
+      <DependentUpon>ChartControl.cs</DependentUpon>
     </Compile>
     <Compile Include="ChartForm.cs">
       <SubType>Form</SubType>
@@ -79,8 +79,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Chart.resx">
-      <DependentUpon>Chart.cs</DependentUpon>
+    <EmbeddedResource Include="ChartControl.resx">
+      <DependentUpon>ChartControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChartForm.resx">
       <SubType>Designer</SubType>
