@@ -108,7 +108,7 @@ namespace PerformanceCounters
 
             if (selectedSeries == null)
                 return;
-            
+
             if (selectedSeries.Enabled)
                 selectedSeries.Enabled = false;
             else

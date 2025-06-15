@@ -41,48 +41,48 @@ namespace PerformanceCounters
             splitContainer.Panel2.SuspendLayout();
             splitContainer.SuspendLayout();
             SuspendLayout();
-            // 
+            //
             // treeView
-            // 
+            //
             treeView.Dock = DockStyle.Fill;
             treeView.Location = new Point(0, 0);
             treeView.Name = "treeView";
             treeView.Size = new Size(175, 288);
             treeView.TabIndex = 12;
             treeView.MouseClick += new MouseEventHandler(treeView_MouseClick);
-            // 
+            //
             // timer
-            // 
+            //
             timer.Interval = 1000;
             timer.Tick += new System.EventHandler(timer_Tick);
-            // 
+            //
             // chart
-            // 
+            //
             chart.Dock = DockStyle.Fill;
             chart.Location = new Point(0, 0);
             chart.Name = "chart";
             chart.Size = new Size(348, 288);
             chart.TabIndex = 11;
-            // 
+            //
             // splitContainer
-            // 
+            //
             splitContainer.Dock = DockStyle.Fill;
             splitContainer.Location = new Point(0, 0);
             splitContainer.Name = "splitContainer";
-            // 
+            //
             // splitContainer.Panel1
-            // 
+            //
             splitContainer.Panel1.Controls.Add(treeView);
-            // 
+            //
             // splitContainer.Panel2
-            // 
+            //
             splitContainer.Panel2.Controls.Add(chart);
             splitContainer.Size = new Size(527, 288);
             splitContainer.SplitterDistance = 175;
             splitContainer.TabIndex = 13;
-            // 
+            //
             // ChartForm
-            // 
+            //
             AutoScaleDimensions = new SizeF(6F, 13F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(527, 288);
